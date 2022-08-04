@@ -104,9 +104,16 @@ footer{
 #james{
     background-color: #798ffd;
     padding: 15px 0px 15px 0px;
+    position: relative;
+    padding-bottom: 58%;
 }
 main iframe{
     display: block;
     margin: auto;  
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
