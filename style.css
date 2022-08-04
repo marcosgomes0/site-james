@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #040c33;
+    --cor2: #07155e;
+    --cor3: #0a208d;
+    --cor4: #0e2cc5;
+    --cor5: #798ffd;
+}
+* {
+    margin: 0px;
+}
+body{
+    background-color: #798ffd;
+}
+#objetivos{
+    color: white;
+    background-image: linear-gradient(to right, #07155e, white);
+    border-radius: 10px 10px 0px 0px;
+}
+header{
+    background-image: linear-gradient(to bottom, #798ffd, #0a208d, #040c33);
+}
+header h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header p{
+    color: white;
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+nav{
+    background-color: #040c33;
+    padding: 10px 0px 10px 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.432);
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    color: yellow;
+    background-color: #0e2cc5;
+    padding: 5px;
+}
+main{
+    background-color: white;
+    /* Essa medida minima e máxima de width serve para deixar o texto adaptativo. Ele irá se adaptar as medidas mínimas e máximas 300-800 que vc determinou, conforme a necessidade do projeto*/
+    min-width: 300px; 
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 15px #040c3357;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+main h1{
+    padding: 10px;
+}
+main p{
+    padding: 10px 0px 20px 0px;
+    text-indent: 30px;
+    text-align: justify;
+
+}
+main h2{
+    padding: 10px 0px 10px 20px;
+}
+main h3{
+    padding: 10px 0px 10px 20px;
+}
+main h4{
+    padding: 10px 0px 10px 25px;
+}
+
+section{
+    margin: 0px 0px 20px 0px;
+}
+section ul{
+    color: white;
+    background-color: #798ffd;
+    border-radius: 0px 0px 10px 10px;
+}
+aside ul{
+    font-weight: bold;
+}
+.galaxia{
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: #040c33;
+    padding: 6px;
+    margin-top: 20px;
+}
+#james{
+    background-color: #798ffd;
+    padding: 15px 0px 15px 0px;
+}
+main iframe{
+    display: block;
+    margin: auto;  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
